@@ -1,0 +1,60 @@
+<!-- Contact Us page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Photos/Avalon-Adventures-Transparent-2.png" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact us</title>
+</head>
+
+<body>
+    <!-- Main menu -->
+    <div id="navbar-placeholder"></div>
+    
+    <main>
+        <div class="service-card">
+
+            <!-- General Information to contact -->
+            <div class="contact-form">
+                <h2>Contact Us</h2>
+                <p><strong>Email:</strong> <a href="mailto:info@AvalonAdventures.ca">info@AvalonAdventures.ca</a></p>
+                <p><strong>Phone:</strong> <a href="tel:7095555555">709-555-5555</a></p>
+                <p><strong>Address:</strong> 7 Rickets Rd., St. John’s, NL, Canada</p>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d566.0510627530995!2d-52.7244440708002!3d47.55596144503563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b0ca37290699d9f%3A0xfaacb2f86edbed05!2sAMAL%20Unite%20%26%20Empower%20(AUE)!5e0!3m2!1sen!2sca!4v1738859477422!5m2!1sen!2sca" 
+                        width="600" height="450" style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form">
+            <h2>Contact Form</h2>
+            <form action="#" method="POST" onsubmit="return validateForm()" novalidate>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+        
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="phone">Phone Number (optional)</label>
+                <input type="tel" id="phone" name="phone">
+        
+                <label for="question">Question</label>
+                <textarea id="question" name="question" rows="4" required></textarea>
+        
+                <button type="submit">Send</button>
+            </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer: social network icons -->
+    <div id="footer-placeholder"></div>
+    <script src="script.js"></script>
+</body>
+</html>
